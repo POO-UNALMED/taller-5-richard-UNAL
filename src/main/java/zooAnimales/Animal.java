@@ -33,13 +33,13 @@ public class Animal {
 	                "Aves: "+Ave.cantidadAves()+ "\n" +
  	                "Reptiles: "+Reptil.cantidadReptiles() + "\n" +
 	                "Peces: "+Pez.cantidadPeces() + "\n" +
-	                "Anfibios: "+Anfibio.cantidadAnfibios() + "\n";
+	                "Anfibios: "+Anfibio.cantidadAnfibios() ;
 		
 	}
 	
 	public String toString() {
-		return "Mi nombre es " + nombre +", tengo una edad de " + edad +", habito en "+ habitat +" y mi genero es\n" + 
-				genero + ", la zona en la que me ubico es " + zona.getNombre() +", en el " + zona.getZoo() ;
+		return "Mi nombre es " + nombre +", tengo una edad de " + edad +", habito en "+ habitat +" y mi genero es " + 
+		genero ;
 		}
 
 	public String getNombre() {
