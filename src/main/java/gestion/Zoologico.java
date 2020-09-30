@@ -59,7 +59,7 @@ public class Zoologico {
 	}
 	
 	public int cantidadTotalAnimales() {
-		var sum = 0;
+		int sum = 0;
 		for (Zona zona : zonas) {
 			sum += zona.cantidadAnimales();
 		}
